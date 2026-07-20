@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Boat Water Wake BP",
+    "description": "Spawns a moving foam wake behind boats.",
+    "uuid": "bb0a2e27-2dc8-4a0d-8440-cb78beacac85",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f94568b4-fbd1-4dcb-bc95-ef86f4e19200",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "uuid": "e4fea5a0-689f-4eb2-884c-6eab5ccae842",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3e486b0a-837a-4c08-a7d5-0558ebba06e8",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    }
+  ]
+}

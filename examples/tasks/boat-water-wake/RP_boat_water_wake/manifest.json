@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Boat Water Wake RP",
+    "description": "Foam particle texture and boat wake effect.",
+    "uuid": "3e486b0a-837a-4c08-a7d5-0558ebba06e8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "93668445-5010-42f9-ab5c-170a2656c140",
+      "version": [1, 0, 0]
+    }
+  ]
+}
